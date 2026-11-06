@@ -1,5 +1,7 @@
 # Higher derivations on algebras — a Lean 4 formalization
 
+[![Lean Action CI](https://github.com/mirzavaziri/higher-derivations/actions/workflows/lean_action_ci.yml/badge.svg)](https://github.com/mirzavaziri/higher-derivations/actions/workflows/lean_action_ci.yml)
+
 This repository contains a complete formal verification, in [Lean 4](https://lean-lang.org)
 with [Mathlib](https://github.com/leanprover-community/mathlib4), of the characterization of
 higher derivations proved in
@@ -29,6 +31,9 @@ Lean's standard axioms (`propext`, `Classical.choice`, `Quot.sound`).
 ## Files
 
 * [`HigherDerivations/Basic.lean`](HigherDerivations/Basic.lean) — definitions and proofs.
+
+You can also [open the file in the Lean web editor](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmirzavaziri%2Fhigher-derivations%2Fmain%2FHigherDerivations%2FBasic.lean) and check it in your browser,
+without installing anything.
 
 ## Building
 
