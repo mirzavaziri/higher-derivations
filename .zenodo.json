@@ -1,0 +1,13 @@
+{
+  "title": "Higher derivations on algebras: a Lean 4 formalization",
+  "upload_type": "software",
+  "description": "<p>A complete formal verification in Lean 4 with Mathlib of the characterization of higher derivations on (possibly noncommutative) algebras in terms of sequences of derivations, proved in M. Mirzavaziri, <i>Characterization of higher derivations on algebras</i>, Communications in Algebra 38 (2010), no. 3, 981&ndash;987.</p><p>One direction holds in every characteristic; the converse uses characteristic zero. The formalization contains no <code>sorry</code>.</p>",
+  "creators": [
+    {
+      "name": "Mirzavaziri, Madjid",
+      "affiliation": "Ferdowsi University of Mashhad"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": ["Lean 4", "Mathlib", "formalization", "higher derivations", "Hasse-Schmidt derivations", "derivations"]
+}
