@@ -1,5 +1,6 @@
 # Higher derivations on algebras — a Lean 4 formalization
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24015054.svg)](https://doi.org/10.5281/zenodo.24015054)
 [![Lean Action CI](https://github.com/mirzavaziri/higher-derivations/actions/workflows/lean_action_ci.yml/badge.svg)](https://github.com/mirzavaziri/higher-derivations/actions/workflows/lean_action_ci.yml)
 
 This repository contains a complete formal verification, in [Lean 4](https://lean-lang.org)
@@ -43,6 +44,32 @@ project builds the same way at any time:
 ```
 lake exe cache get
 lake build
+```
+
+## How to cite
+
+If you use this formalization, please cite it together with the original paper:
+
+```bibtex
+@software{mirzavaziri_higher_derivations_lean,
+  author    = {Mirzavaziri, Madjid},
+  title     = {Higher derivations on algebras: a {Lean} 4 formalization},
+  version   = {v1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24015054},
+  url       = {https://doi.org/10.5281/zenodo.24015054}
+}
+
+@article{mirzavaziri_2010_higher_derivations,
+  author  = {Mirzavaziri, Madjid},
+  title   = {Characterization of higher derivations on algebras},
+  journal = {Communications in Algebra},
+  volume  = {38},
+  number  = {3},
+  pages   = {981--987},
+  year    = {2010}
+}
 ```
 
 ## Acknowledgement
